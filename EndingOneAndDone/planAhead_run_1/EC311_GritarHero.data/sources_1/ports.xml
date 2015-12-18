@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="AN">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+		</Bus>
+		<Bus Id="seven">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+		</Bus>
+		<Bus Id="R">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+		</Bus>
+		<Bus Id="G">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+		</Bus>
+		<Bus Id="B">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+		</Bus>
+		<Bus Id="R_control">
+			<Port Id="0" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+		</Bus>
+		<Bus Id="G_control">
+			<Port Id="0" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+		</Bus>
+		<Bus Id="B_control">
+			<Port Id="0" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+		</Bus>
+		<Bus Id="points1">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+		</Bus>
+		<Bus Id="colors">
+			<Port Id="0" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="7" Dir="IN"/>
+		</Bus>
+		<Port Id="trigger" Dir="IN"/>
+		<Port Id="debouncetrigger" Dir="IN"/>
+		<Port Id="reset" Dir="IN"/>
+		<Port Id="rst" Dir="IN"/>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="HS" Dir="OUT"/>
+		<Port Id="VS" Dir="OUT"/>
+		<Port Id="green" Dir="IN"/>
+		<Port Id="red" Dir="IN"/>
+		<Port Id="yellow" Dir="IN"/>
+		<Port Id="blue" Dir="IN"/>
+	</Ifc>
+</Interface>
+

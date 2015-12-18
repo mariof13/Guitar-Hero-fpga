@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "X:/EC311 Project/Given/EC311_GritarHero/binary_to_segment.xst" -ofn "X:/EC311 Project/Given/EC311_GritarHero/binary_to_segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "binary_to_segment.ngc" binary_to_segment.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_to_segment_map.ncd binary_to_segment.ngd binary_to_segment.pcf 
+par -w -intstyle ise -ol high -mt off binary_to_segment_map.ncd binary_to_segment.ncd binary_to_segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_to_segment.twx binary_to_segment.ncd -o binary_to_segment.twr binary_to_segment.pcf 

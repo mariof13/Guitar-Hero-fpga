@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml binary_to_segment.twx binary_to_segment.ncd -o
+binary_to_segment.twr binary_to_segment.pcf
+
+Design file:              binary_to_segment.ncd
+Physical constraint file: binary_to_segment.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.22 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+bin<0>         |seven<0>       |    6.741|
+bin<0>         |seven<1>       |    6.758|
+bin<0>         |seven<2>       |    6.981|
+bin<0>         |seven<3>       |    6.812|
+bin<0>         |seven<4>       |    6.761|
+bin<0>         |seven<5>       |    6.292|
+bin<0>         |seven<6>       |    6.778|
+bin<1>         |seven<0>       |    6.468|
+bin<1>         |seven<1>       |    6.555|
+bin<1>         |seven<2>       |    6.708|
+bin<1>         |seven<3>       |    6.410|
+bin<1>         |seven<4>       |    6.558|
+bin<1>         |seven<5>       |    6.696|
+bin<1>         |seven<6>       |    6.376|
+bin<2>         |seven<0>       |    6.243|
+bin<2>         |seven<1>       |    6.415|
+bin<2>         |seven<2>       |    6.483|
+bin<2>         |seven<3>       |    6.249|
+bin<2>         |seven<4>       |    6.418|
+bin<2>         |seven<5>       |    6.333|
+bin<2>         |seven<6>       |    6.215|
+bin<3>         |seven<0>       |    6.458|
+bin<3>         |seven<1>       |    6.624|
+bin<3>         |seven<2>       |    6.698|
+bin<3>         |seven<3>       |    6.275|
+bin<3>         |seven<4>       |    6.627|
+bin<3>         |seven<5>       |    6.313|
+bin<3>         |seven<6>       |    6.241|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 07 15:54:17 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 213 MB
+
+
+

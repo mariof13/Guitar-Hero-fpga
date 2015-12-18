@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed Dec 16 14:20:37 2015
+# Process ID: 38400
+# Log file: X:/EC311 Project/Given/EC311_GritarHero/planAhead_run_3/planAhead.log
+# Journal file: X:/EC311 Project/Given/EC311_GritarHero/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {X:/EC311 Project/Given/EC311_GritarHero/pa.fromHdl.tcl}
+set_property package_pin "" [get_ports [list  trigger]]
+startgroup
+set_property package_pin T10 [get_ports rst]
+endgroup
+save_design
+set_property package_pin "" [get_ports [list  debouncetrigger]]
+save_design
