@@ -1,2 +1,2 @@
 # Guitar-Hero-fpga
-Very basic fpga version of guitar hero. We put WAY too much time into this, and it looks like we did this in 15 minutes...
+fpga version of guitar hero.
